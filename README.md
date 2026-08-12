@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+# Assignment2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A small web project built with JavaScript, HTML, and SCSS/CSS. This repository contains the source for a front-end assignment (Assignment2) — implemention details, usage instructions, and development notes are below.
 
-## Available Scripts
+## Table of contents
+- [About](#about)
+- [Features](#features)
+- [Tech stack](#tech-stack)
+- [Demo / Preview](#demo--preview)
+- [Getting started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Install & Run (development)](#install--run-development)
+  - [Build / Production (if applicable)](#build--production-if-applicable)
+- [Project structure](#project-structure)
+- [How to use](#how-to-use)
+- [Testing](#testing)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In the project directory, you can run:
+## About
+This project is an assignment that demonstrates front-end development skills using JavaScript with HTML and SCSS. It includes interactive UI behavior, styling with SCSS/CSS, and any small app logic required by the assignment prompt.
 
-### `npm start`
+## Features
+- Vanilla JavaScript implementation for DOM interactions and app logic
+- Modular styles using SCSS (compiled to CSS)
+- Simple, accessible UI designed for clarity and responsiveness
+- Build or dev-server-ready (instructions below)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech stack
+- JavaScript (ES6+)
+- HTML5
+- SCSS / CSS
+- (Optional) Node.js and npm for tooling, bundling, or live-reload
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo / Preview
+Add screenshots or GIFs here to show the app. Example:
 
-### `npm test`
+![Preview placeholder](docs/screenshot.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Replace the placeholder with real images from the `docs/` directory or link to a live deployment.
 
-### `npm run build`
+## Getting started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
+- A modern browser (Chrome, Firefox, Edge, Safari)
+- Optionally, Node.js (v14+) and npm if you want to use a local dev server, build tooling, or SCSS compilation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install & Run (development)
+If the project only contains static files:
+1. Clone the repo:
+   - git clone https://github.com/AmanaFaizal/Assignment2.git
+2. Open `index.html` in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you prefer or need a local server (recommended for modules, fetch, or routing):
+- Using npx http-server:
+  - npx http-server . -c-1
+  - Open http://localhost:8080 (or the port shown)
+- Using live-server:
+  - npx live-server
 
-### `npm run eject`
+If the repo includes a package.json with scripts:
+1. npm install
+2. npm run start
+(Replace `start` with the appropriate dev script name if different.)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Build / Production (if applicable)
+If the project uses a bundler or SCSS compilation:
+- npm run build
+- Serve the generated `dist/` (or configured output) folder with a static server.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project structure (suggested — adapt to this repo)
+- index.html — main entry
+- src/ or js/ — JavaScript source files
+- scss/ or styles/ — SCSS source files
+- css/ — compiled CSS (if committed)
+- assets/ — images, icons
+- docs/ — screenshots, design notes
+- package.json — npm scripts and dependencies (optional)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Adjust these paths to match the repository layout.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## How to use
+- Open the app, interact with UI controls (buttons, inputs)
+- Describe any specific controls or flows here (e.g., "Click Add to create a new item; double-click to edit...")
 
-## Learn More
+(Add specific usage examples relevant to the assignment.)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Testing
+If there are tests, document how to run them:
+- npm test
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If not, add manual test steps or testing checklist items.
 
-### Code Splitting
+## Contributing
+Contributions and improvements are welcome:
+1. Fork the repo
+2. Create a branch: git checkout -b feature/your-feature
+3. Commit your changes: git commit -m "Add feature"
+4. Push to your branch: git push origin feature/your-feature
+5. Open a pull request describing your changes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Please include screenshots and a short description for UI changes.
 
-### Analyzing the Bundle Size
+## License
+If you want a permissive license, consider:
+MIT License — see LICENSE file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(If you prefer a different license, replace this section.)
 
-### Making a Progressive Web App
+## Contact
+Maintainer: AmanaFaizal  
+Repository: https://github.com/AmanaFaizal/Assignment2
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Notes:
+- Replace placeholders (screenshots, specific run/build commands) with exact project details.
+- If you want, I can detect existing scripts and fill in exact commands based on this repo's package.json and file layout.
